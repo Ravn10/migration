@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "creation": "2021-12-03 19:05:39.793400",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "range",
+  "from_date",
+  "column_break_3",
+  "to_date",
+  "section_break_6"
+ ],
+ "fields": [
+  {
+   "fieldname": "range",
+   "fieldtype": "Select",
+   "label": "Range",
+   "options": "Weekly\nMonthly\nQuarterly\nHalf-Yearly\nYearly"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "group": "Reference",
+   "link_doctype": "Migration Run Log",
+   "link_fieldname": "migration_run"
+  }
+ ],
+ "modified": "2021-12-14 15:52:48.239778",
+ "modified_by": "Administrator",
+ "module": "Migration",
+ "name": "Migration Run",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -5,6 +5,8 @@ company = "Latteys Industries Limited - Group"
 abbr = frappe.get_value("Company",company,'abbr')
 
 transactions = [
+ 'Payment Entry',
+ 'Stock Reconciliation',
  'Sales Invoice',
  'Sales Order',
  'Payment Entry',
@@ -14,6 +16,8 @@ transactions = [
  'Purchase Receipt',
  'Delivery Note',
  'Stock Entry',
+ 'Work Order',
+ 'Job Card'
 ]
 months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 # 10. Create Chart of Account with all accounts in other companies

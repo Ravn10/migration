@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "creation": "2021-12-14 15:51:56.092013",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_date",
+  "migration_run",
+  "column_break_3",
+  "to_date",
+  "section_break_5",
+  "transaction_data",
+  "total_vouchers",
+  "vouchers"
+ ],
+ "fields": [
+  {
+   "fieldname": "migration_run",
+   "fieldtype": "Link",
+   "label": "Migration Run",
+   "options": "Migration Run"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "transaction_data",
+   "fieldtype": "Code",
+   "label": "Transaction Data",
+   "options": "JSON"
+  },
+  {
+   "fieldname": "total_vouchers",
+   "fieldtype": "Int",
+   "label": "Total Vouchers"
+  },
+  {
+   "fieldname": "vouchers",
+   "fieldtype": "Code",
+   "label": "Vouchers",
+   "options": "JSON"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-21 10:02:16.598368",
+ "modified_by": "Administrator",
+ "module": "Migration",
+ "name": "Migration Run Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -15,10 +15,14 @@ Transaction_Type_List = [
     'Sales Order',
     'Purchase Order',
     'Production Plan',
-    'Material Request'
+    'Material Request',
+    'Work Order',
+    'Job Card'
 ]
 
-def get_all_transactions():
+Months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+def get_all_transactions(month):
     all_transactions = {}
     all_transactions_df_dict = {}
     all_transactions_clubbed_df = pd.DataFrame()
@@ -27,9 +31,10 @@ def get_all_transactions():
     for Transaction_Type in Transaction_Type_List:
         if Transaction_Type in ['Purchase Invoice','Sales Invoice','Stock Entry','Delivery Note','Purchase Receipt','Production Plan']:
             date_field = 'posting_date'
+            filters=[['docstatus', 'between', '0 and 1'],['posting_date','between',(from_date, to_date)]]
         elif Transaction_Type in ['Sales Order','Purchase Order','Material Request']:
             date_field = 'transaction_date'
-        transaction_list_ = frappe.get_all(Transaction_Type,filters=[['docstatus', 'between', '0 and 1']],fields=['name',date_field])
+        transaction_list_ = frappe.get_all(Transaction_Type,filters=filters,fields=['name',date_field])
         transaction_list = [dict(x) for x in transaction_list_]
         all_transactions.setdefault(Transaction_Type, transaction_list)
 
@@ -57,5 +62,9 @@ def create_voucher_data_frame():
     # create multiple documents for migration
     # create chunks in migration run doc
     # enque each chunk for submittion
+    # create voucher
+    # insert vouchers
+    # rename 
+    # submit
     for transaction in all_transactions_clubbed:
         all_transactions_data.append(dict(frappe.get_doc(transaction['doctype'],transaction['name']).as_dict))
