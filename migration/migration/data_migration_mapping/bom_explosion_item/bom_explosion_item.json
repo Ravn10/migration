@@ -1,0 +1,104 @@
+{
+ "creation": "2022-01-03 10:55:59.508350",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_code",
+   "remote_fieldname": "item_code"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_name",
+   "remote_fieldname": "item_name"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "source_warehouse",
+   "remote_fieldname": "source_warehouse"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "operation",
+   "remote_fieldname": "operation"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "description",
+   "remote_fieldname": "description"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "image",
+   "remote_fieldname": "image"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "image_view",
+   "remote_fieldname": "image_view"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "stock_qty",
+   "remote_fieldname": "stock_qty"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "rate",
+   "remote_fieldname": "rate"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "qty_consumed_per_unit",
+   "remote_fieldname": "qty_consumed_per_unit"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "stock_uom",
+   "remote_fieldname": "stock_uom"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "amount",
+   "remote_fieldname": "amount"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "include_item_in_manufacturing",
+   "remote_fieldname": "include_item_in_manufacturing"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "sourced_by_supplier",
+   "remote_fieldname": "sourced_by_supplier"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "BOM Explosion Item",
+ "local_primary_key": "BOM Explosion Item",
+ "mapping_name": "BOM Explosion Item",
+ "mapping_type": "Push",
+ "migration_id_field": "bom_explosion_item_id",
+ "modified": "2022-01-03 10:59:07.380404",
+ "modified_by": "Administrator",
+ "name": "BOM Explosion Item",
+ "owner": "Administrator",
+ "page_length": 10,
+ "remote_objectname": "Explosion Item",
+ "remote_primary_key": "BOM Explosion Item"
+}

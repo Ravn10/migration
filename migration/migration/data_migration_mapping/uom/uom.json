@@ -1,0 +1,30 @@
+{
+ "creation": "2022-01-02 11:34:27.915631",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "is_child_table": 0,
+   "local_fieldname": "uom_name",
+   "remote_fieldname": "uom_name"
+  },
+  {
+   "is_child_table": 0,
+   "local_fieldname": "must_be_whole_number",
+   "remote_fieldname": "must_be_whole_number"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "UOM",
+ "local_primary_key": "uom_name",
+ "mapping_name": "UOM",
+ "mapping_type": "Push",
+ "migration_id_field": "uom_id",
+ "modified": "2022-01-02 11:34:51.371311",
+ "modified_by": "Administrator",
+ "name": "UOM",
+ "owner": "Administrator",
+ "page_length": 10,
+ "remote_objectname": "UOM",
+ "remote_primary_key": "uom_name"
+}

@@ -1,0 +1,134 @@
+{
+ "creation": "2022-01-02 08:13:27.176353",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_code",
+   "remote_fieldname": "item_code"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "uom",
+   "remote_fieldname": "uom"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "packing_unit",
+   "remote_fieldname": "packing_unit"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_name",
+   "remote_fieldname": "item_name"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "brand",
+   "remote_fieldname": "brand"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_description",
+   "remote_fieldname": "item_description"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "price_list",
+   "remote_fieldname": "price_list"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "customer",
+   "remote_fieldname": "customer"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "supplier",
+   "remote_fieldname": "supplier"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "batch_no",
+   "remote_fieldname": "batch_no"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "buying",
+   "remote_fieldname": "buying"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "selling",
+   "remote_fieldname": "selling"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "currency",
+   "remote_fieldname": "currency"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "price_list_rate",
+   "remote_fieldname": "price_list_rate"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "valid_from",
+   "remote_fieldname": "valid_from"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "lead_time_days",
+   "remote_fieldname": "lead_time_days"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "valid_upto",
+   "remote_fieldname": "valid_upto"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "note",
+   "remote_fieldname": "note"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "reference",
+   "remote_fieldname": "reference"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "Item Price",
+ "local_primary_key": "name",
+ "mapping_name": "Item Price",
+ "mapping_type": "Push",
+ "migration_id_field": "price_list_id",
+ "modified": "2022-01-02 08:32:19.851208",
+ "modified_by": "Administrator",
+ "name": "Item Price",
+ "owner": "Administrator",
+ "page_length": 10,
+ "remote_objectname": "Item Price",
+ "remote_primary_key": "name"
+}

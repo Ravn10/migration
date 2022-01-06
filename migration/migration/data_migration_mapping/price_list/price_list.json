@@ -1,0 +1,68 @@
+{
+ "creation": "2022-01-02 08:16:34.321166",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "workflow_state",
+   "remote_fieldname": "workflow_state"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "enabled",
+   "remote_fieldname": "enabled"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "company",
+   "remote_fieldname": "company"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "price_list_name",
+   "remote_fieldname": "price_list_name"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "currency",
+   "remote_fieldname": "currency"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "buying",
+   "remote_fieldname": "buying"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "selling",
+   "remote_fieldname": "selling"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "price_not_uom_dependent",
+   "remote_fieldname": "price_not_uom_dependent"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "Price List",
+ "local_primary_key": "price_list_name",
+ "mapping_name": "Price List",
+ "mapping_type": "Push",
+ "migration_id_field": "price_list_id",
+ "modified": "2022-01-02 08:27:16.227015",
+ "modified_by": "Administrator",
+ "name": "Price List",
+ "owner": "Administrator",
+ "page_length": 10,
+ "remote_objectname": "Price List",
+ "remote_primary_key": "price_list_name"
+}

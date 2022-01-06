@@ -1,0 +1,19 @@
+{
+ "creation": "2022-01-02 08:17:38.123499",
+ "docstatus": 0,
+ "doctype": "Data Migration Plan",
+ "idx": 0,
+ "mappings": [
+  {
+   "enabled": 1,
+   "mapping": "Item Price"
+  }
+ ],
+ "modified": "2022-01-02 08:32:19.825670",
+ "modified_by": "Administrator",
+ "module": "Migration",
+ "name": "Price List",
+ "owner": "Administrator",
+ "plan_name": "Price List",
+ "preprocess_method": ""
+}

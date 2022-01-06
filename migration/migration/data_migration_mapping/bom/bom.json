@@ -1,0 +1,266 @@
+{
+ "creation": "2021-12-31 11:00:47.711613",
+ "docstatus": 0,
+ "doctype": "Data Migration Mapping",
+ "fields": [
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_name",
+   "remote_fieldname": "item_name"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "item_group",
+   "remote_fieldname": "item_group"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "uom",
+   "remote_fieldname": "uom"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "is_active",
+   "remote_fieldname": "is_active"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "is_default",
+   "remote_fieldname": "is_default"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "allow_alternative_item",
+   "remote_fieldname": "allow_alternative_item"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "set_rate_of_sub_assembly_item_based_on_bom",
+   "remote_fieldname": "set_rate_of_sub_assembly_item_based_on_bom"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "project",
+   "remote_fieldname": "project"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "quantity",
+   "remote_fieldname": "quantity"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "image",
+   "remote_fieldname": "image"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "currency",
+   "remote_fieldname": "currency"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "conversion_rate",
+   "remote_fieldname": "conversion_rate"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "rm_cost_as_per",
+   "remote_fieldname": "rm_cost_as_per"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "buying_price_list",
+   "remote_fieldname": "buying_price_list"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "price_list_currency",
+   "remote_fieldname": "price_list_currency"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "plc_conversion_rate",
+   "remote_fieldname": "plc_conversion_rate"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "with_operations",
+   "remote_fieldname": "with_operations"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "transfer_material_against",
+   "remote_fieldname": "transfer_material_against"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "routing",
+   "remote_fieldname": "routing"
+  },
+  {
+   "child_table_mapping": "BOM Operation",
+   "is_child_table": 1,
+   "local_fieldname": "operations",
+   "remote_fieldname": "operations"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "inspection_required",
+   "remote_fieldname": "inspection_required"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "quality_inspection_template",
+   "remote_fieldname": "quality_inspection_template"
+  },
+  {
+   "child_table_mapping": "BOM Item",
+   "is_child_table": 1,
+   "local_fieldname": "items",
+   "remote_fieldname": "items"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "operating_cost",
+   "remote_fieldname": "operating_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "raw_material_cost",
+   "remote_fieldname": "raw_material_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "scrap_material_cost",
+   "remote_fieldname": "scrap_material_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "base_operating_cost",
+   "remote_fieldname": "base_operating_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "base_raw_material_cost",
+   "remote_fieldname": "base_raw_material_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "base_scrap_material_cost",
+   "remote_fieldname": "base_scrap_material_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "total_cost",
+   "remote_fieldname": "total_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "base_total_cost",
+   "remote_fieldname": "base_total_cost"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "description",
+   "remote_fieldname": "description"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "has_variants",
+   "remote_fieldname": "has_variants"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "show_in_website",
+   "remote_fieldname": "show_in_website"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "route",
+   "remote_fieldname": "route"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "website_image",
+   "remote_fieldname": "website_image"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "thumbnail",
+   "remote_fieldname": "thumbnail"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "show_items",
+   "remote_fieldname": "show_items"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "show_operations",
+   "remote_fieldname": "show_operations"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "web_long_description",
+   "remote_fieldname": "web_long_description"
+  },
+  {
+   "child_table_mapping": "",
+   "is_child_table": 0,
+   "local_fieldname": "amended_from",
+   "remote_fieldname": "amended_from"
+  }
+ ],
+ "idx": 0,
+ "local_doctype": "BOM",
+ "local_primary_key": "name",
+ "mapping_name": "BOM",
+ "mapping_type": "Push",
+ "migration_id_field": "bom_migration_id",
+ "modified": "2022-01-02 11:12:22.642638",
+ "modified_by": "Administrator",
+ "name": "BOM",
+ "owner": "Administrator",
+ "page_length": 10,
+ "remote_objectname": "BOM",
+ "remote_primary_key": "name"
+}

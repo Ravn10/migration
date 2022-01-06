@@ -1,0 +1,20 @@
+{
+ "creation": "2021-12-31 11:18:42.713607",
+ "docstatus": 0,
+ "doctype": "Data Migration Plan",
+ "idx": 0,
+ "mappings": [
+  {
+   "enabled": 1,
+   "mapping": "BOM"
+  }
+ ],
+ "modified": "2022-01-02 11:12:22.425952",
+ "modified_by": "Administrator",
+ "module": "Migration",
+ "name": "BOM Migration",
+ "owner": "Administrator",
+ "plan_name": "BOM Migration",
+ "postprocess_method": "",
+ "preprocess_method": "pre_process"
+}

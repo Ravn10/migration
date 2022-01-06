@@ -1,0 +1,19 @@
+{
+ "creation": "2022-01-03 10:57:38.231909",
+ "docstatus": 0,
+ "doctype": "Data Migration Plan",
+ "idx": 0,
+ "mappings": [
+  {
+   "enabled": 1,
+   "mapping": "BOM Explosion Item"
+  }
+ ],
+ "modified": "2022-01-03 10:59:07.353265",
+ "modified_by": "Administrator",
+ "module": "Migration",
+ "name": "BOM Explosion Item",
+ "owner": "Administrator",
+ "plan_name": "BOM Explosion Item",
+ "preprocess_method": "pre_process"
+}

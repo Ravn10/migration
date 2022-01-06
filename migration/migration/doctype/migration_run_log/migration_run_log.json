@@ -12,7 +12,8 @@
   "section_break_5",
   "transaction_data",
   "total_vouchers",
-  "vouchers"
+  "vouchers",
+  "status"
  ],
  "fields": [
   {
@@ -55,11 +56,16 @@
    "fieldtype": "Code",
    "label": "Vouchers",
    "options": "JSON"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-21 10:02:16.598368",
+ "modified": "2021-12-29 18:07:17.569316",
  "modified_by": "Administrator",
  "module": "Migration",
  "name": "Migration Run Log",
